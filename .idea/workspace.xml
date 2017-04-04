@@ -4,7 +4,6 @@
     <list default="true" id="5b855529-6484-42c0-9464-2a54d393f41f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/class.inc.php" afterPath="$PROJECT_DIR$/scripts/class.inc.php" />
     </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="class.inc.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/class.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="200" column="83" selection-start-line="200" selection-start-column="83" selection-end-line="200" selection-end-column="83" />
+            <state relative-caret-position="196">
+              <caret line="135" column="86" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="86" />
               <folding>
                 <element signature="n#get_txt_id#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="n#get_array_first_data#0;n#main#0;n#!!top" expanded="false" />
@@ -40,8 +39,6 @@
                 <element signature="n#give_layout_array#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="e#3219#3636#0#PHP" expanded="false" />
                 <element signature="e#3334#3625#0#PHP" expanded="false" />
-                <element signature="n#give_project_html#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="e#3773#5793#0#PHP" expanded="false" />
                 <element signature="e#6806#7063#0#PHP" expanded="false" />
                 <element signature="n#giva_url_data#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="e#12921#13114#0#PHP" expanded="false" />
@@ -60,14 +57,14 @@
                 <marker date="1491304379408" expanded="false" signature="1557:1739" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
                 <marker date="1491304379408" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
-                <marker date="1491304379408" expanded="false" signature="4042:5761" ph="..." />
+                <marker date="1491304379408" expanded="true" signature="4042:5761" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="4162:4252" ph="..." />
-                <marker date="1491304379408" expanded="false" signature="4319:5726" ph="..." />
-                <marker date="1491304379408" expanded="false" signature="4388:5687" ph="..." />
+                <marker date="1491304379408" expanded="true" signature="4319:5726" ph="..." />
+                <marker date="1491304379408" expanded="true" signature="4388:5687" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="4460:4580" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="4652:4775" ph="..." />
-                <marker date="1491304379408" expanded="false" signature="4856:5644" ph="..." />
-                <marker date="1491304379408" expanded="false" signature="4925:5597" ph="..." />
+                <marker date="1491304379408" expanded="true" signature="4856:5644" ph="..." />
+                <marker date="1491304379408" expanded="true" signature="4925:5597" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="5848:6575" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="5894:6552" ph="..." />
                 <marker date="1491304379408" expanded="false" signature="5940:6026" ph="..." />
@@ -110,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="289" column="38" selection-start-line="289" selection-start-column="38" selection-end-line="289" selection-end-column="38" />
+            <state relative-caret-position="196">
+              <caret line="632" column="63" selection-start-line="632" selection-start-column="63" selection-end-line="632" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -130,8 +127,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/class.inc.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -290,12 +287,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490622420410</updated>
       <workItem from="1490622423360" duration="256000" />
-      <workItem from="1491299518819" duration="4058000" />
+      <workItem from="1491299518819" duration="4243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4314000" />
+    <option name="totallyTimeSpent" value="4499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,8 +355,6 @@
             <element signature="n#give_layout_array#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#3219#3636#0#PHP" expanded="false" />
             <element signature="e#3334#3625#0#PHP" expanded="false" />
-            <element signature="n#give_project_html#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#3773#5793#0#PHP" expanded="false" />
             <element signature="e#6806#7063#0#PHP" expanded="false" />
             <element signature="n#giva_url_data#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#12921#13114#0#PHP" expanded="false" />
@@ -378,14 +373,14 @@
             <marker date="1491304379408" expanded="false" signature="1557:1739" ph="..." />
             <marker date="1491304379408" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
             <marker date="1491304379408" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
-            <marker date="1491304379408" expanded="false" signature="4042:5761" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4042:5761" ph="..." />
             <marker date="1491304379408" expanded="false" signature="4162:4252" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4319:5726" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4388:5687" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4319:5726" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4388:5687" ph="..." />
             <marker date="1491304379408" expanded="false" signature="4460:4580" ph="..." />
             <marker date="1491304379408" expanded="false" signature="4652:4775" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4856:5644" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4925:5597" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4856:5644" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4925:5597" ph="..." />
             <marker date="1491304379408" expanded="false" signature="5848:6575" ph="..." />
             <marker date="1491304379408" expanded="false" signature="5894:6552" ph="..." />
             <marker date="1491304379408" expanded="false" signature="5940:6026" ph="..." />
@@ -449,20 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="289" column="38" selection-start-line="289" selection-start-column="38" selection-end-line="289" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/class.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="200" column="83" selection-start-line="200" selection-start-column="83" selection-end-line="200" selection-end-column="83" />
+        <state relative-caret-position="196">
+          <caret line="135" column="86" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="86" />
           <folding>
             <element signature="n#get_txt_id#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#get_array_first_data#0;n#main#0;n#!!top" expanded="false" />
@@ -472,8 +457,6 @@
             <element signature="n#give_layout_array#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#3219#3636#0#PHP" expanded="false" />
             <element signature="e#3334#3625#0#PHP" expanded="false" />
-            <element signature="n#give_project_html#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#3773#5793#0#PHP" expanded="false" />
             <element signature="e#6806#7063#0#PHP" expanded="false" />
             <element signature="n#giva_url_data#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#12921#13114#0#PHP" expanded="false" />
@@ -492,14 +475,14 @@
             <marker date="1491304379408" expanded="false" signature="1557:1739" ph="..." />
             <marker date="1491304379408" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
             <marker date="1491304379408" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
-            <marker date="1491304379408" expanded="false" signature="4042:5761" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4042:5761" ph="..." />
             <marker date="1491304379408" expanded="false" signature="4162:4252" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4319:5726" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4388:5687" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4319:5726" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4388:5687" ph="..." />
             <marker date="1491304379408" expanded="false" signature="4460:4580" ph="..." />
             <marker date="1491304379408" expanded="false" signature="4652:4775" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4856:5644" ph="..." />
-            <marker date="1491304379408" expanded="false" signature="4925:5597" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4856:5644" ph="..." />
+            <marker date="1491304379408" expanded="true" signature="4925:5597" ph="..." />
             <marker date="1491304379408" expanded="false" signature="5848:6575" ph="..." />
             <marker date="1491304379408" expanded="false" signature="5894:6552" ph="..." />
             <marker date="1491304379408" expanded="false" signature="5940:6026" ph="..." />
@@ -527,6 +510,16 @@
             <marker date="1491304379408" expanded="false" signature="13667:13730" ph="SELECT `id` translinking_${$id}" />
             <marker date="1491304379408" expanded="false" signature="13895:14018" ph="..." />
             <marker date="1491304379408" expanded="false" signature="14184:14258" ph="SELECT `colo... first_config" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="632" column="63" selection-start-line="632" selection-start-column="63" selection-end-line="632" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

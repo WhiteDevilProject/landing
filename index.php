@@ -193,7 +193,7 @@
                         <h2 class="promo-subtitle">
                             <?php echo $text?>
                         </h2>
-                        <noindex>
+                        <!--noindex-->
                         <div class="actions-wrap text-center">
                             <a href="#order-modal"
                                onclick="yaCounter<?php echo $data['counter']?>.reachGoal('download'); return true;"
@@ -204,7 +204,7 @@
                                 Записаться на просмотр
                             </a>
                         </div>
-                        </noindex>
+                        <!--/noindex-->
                     </div>
                 </div>
                 <div class="main-nav">
@@ -630,7 +630,7 @@
                 <a href="javascript:void(0)" class="custom-modal-close"></a>
                 <div class="custom-modal-block clearfix">
                     <div class="custom-modal-right pull-right">
-                        <img src="images/content/plans/pl-1.jpg" class="img-responsive">
+                        <img src="images/content/plans/pl-1.jpg" class="img-responsive" alt="Старая превьюшка"/>
                     </div>
                     <div class="custom-modal-left pull-left">
                         <div class="custom-modal-info">
