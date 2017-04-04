@@ -73,7 +73,7 @@
         <meta property="og:title" content="<?php echo $title?>"/>
         <meta property="og:description" content="<?php echo $desc?>"/>
         <meta property="og:image" content="<?php echo $id->dir.$data['pos_id']?>/first/<?php echo $data['fir_ground']?>)"/>
-        <meta property="og:url" content= "<?php $_SERVER['SERVER_NAME']?>" />
+        <meta property="og:url" content= "<?php echo $_SERVER['SERVER_NAME']?>" />
         <meta property="og:type" content="website" />
         <meta property="og:video" content="https://www.youtube.com/embed/<?php echo $data['link_video']?>?rel=0&autoplay=1" />
 
