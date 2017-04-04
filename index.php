@@ -17,7 +17,7 @@
             $h1 = "Жилой комплекс";
             $h2 = "О жилом комплексе";
             //Перенести в БД
-            $h3 = "квартир</br> и апартаментов";
+            $h3 = "квартир<br> и апартаментов";
             $h5 = "комплексе";
             $img = [
                 "icon1" => "metro-icon.png",
@@ -281,7 +281,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 info-item">
                                     <div class="info-item-main">
                                         <div class="info-item-img">
-                                            <img src="images/elements/<?php echo $img['icon1']?>" alt="Картинка метро" ">
+                                            <img src="images/elements/<?php echo $img['icon1']?>" alt="Картинка метро" />
                                         </div>
                                     </div>
                                     <div class="info-item-title">

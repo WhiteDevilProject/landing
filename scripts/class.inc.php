@@ -186,7 +186,7 @@ class main{
             $price = number_format($k['price'],0,'',' ');
             $plan_prevs .= "<div data-id=\"".$k['id']."\" data-rooms=\"".$k['room']."\" class=\"active col-lg-4 col-md-4 col-sm-2 col-xs-2 plans-item-block\">
                                 <div class=\"plans-item\">
-                                    <img src=\"".$dir."\" class=\"img-responsive\">
+                                    <img src=\"".$dir."\" class=\"img-responsive\" alt=\"Превью планировки в ЖК Парк Рублево\">
                                 </div>
                             </div>";
             
