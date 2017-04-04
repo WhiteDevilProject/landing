@@ -68,7 +68,7 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <meta property="og:title" content="<?php echo $title?>"/>
         <meta property="og:description" content="<?php echo $desc?>"/>
@@ -89,7 +89,7 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/pace.css"/>
-        <link rel="nofollow" href="http://code.google.com/apis/maps/documentation/javascript/examples/standard.css" rel="stylesheet" type="text/css" />
+        <link href="http://code.google.com/apis/maps/documentation/javascript/examples/standard.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         
@@ -471,7 +471,7 @@
                         У вас есть вопросы?
                     </div>
                     <div class="custom-form">
-                        <noindex>
+                        <!--noindex-->
                         <form method="post" action="/send.php">
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -516,10 +516,10 @@
                             </div>
 
                         </form>
-                        </noindex>
+                        <!--/noindex-->
                     </div>
                     <div class="contacts">
-                        <noindex>
+                        <!--noindex-->
                         <div class="contacts-phone">
                             <a href="#order-modal"
                                data-title="Заказать звонок"
@@ -529,7 +529,7 @@
                                 <?php echo $data['phone']?>
                             </a>
                         </div>
-                        </noindex>
+                        <!--/noindex-->
                         <div class="work-time">
                             ежедневно с 10:00 до 20:00
                         </div>
@@ -538,11 +538,11 @@
                                 <?php echo $data['addr']?>
                             </div>
                         </div>
-                        <noindex>
+                        <!--noindex-->
                         <div class="contacts-email">
                             <a href="mailto:<?php echo $data['email']?>"><?php echo $data['email']?></a>
                         </div>
-                        </noindex>
+                        <!--/noindex-->
                     </div>
                 </div>
             </div>
@@ -574,7 +574,7 @@
                     </div>
                 </div>
             </div>
-            <noindex>
+            <!--noindex-->
             <div id="order-modal" class="custom-modal">
                 <a href="javascript:void(0)" class="custom-modal-close"></a>
                 <div class="custom-modal-title">
@@ -624,8 +624,8 @@
                     </form>
                 </div>
             </div>
-                </noindex>
-            <noindex>
+            <!--/noindex-->
+            <!--noindex-->
             <div id="plan-modal" class="custom-modal-wide">
                 <a href="javascript:void(0)" class="custom-modal-close"></a>
                 <div class="custom-modal-block clearfix">
@@ -702,7 +702,7 @@
                     </div>
                 </div>
             </div>
-                </noindex>
+            <!--/noindex-->
         </div>
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript">

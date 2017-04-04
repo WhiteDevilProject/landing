@@ -204,7 +204,7 @@ class main{
                                                     <div class=\"plans-main-info\">
                                                         стоимость от ".$price." рублей
                                                     </div>
-                                                    <noindex>
+                                                    <!--noindex-->
                                                     <div class=\"actions-wrap text-center\">
                                                         <a href=\"#plan-modal\"
                                                            onclick=\"yaCounter".$data['counter'].".reachGoal('send_layout'); return true;\"
@@ -217,7 +217,7 @@ class main{
                                                             Прислать планировку
                                                         </a>
                                                     </div>
-                                                    </noindex>
+                                                    <!--/noindex-->
                                                 </div>
                                             </div>
                                         </div>
@@ -243,7 +243,7 @@ class main{
                                         ".$plan_prevs."
                                     </div>
                                 </div>
-                                <noindex>
+                                <!--noindex-->
                                 <div class=\"actions-wrap\">
                                     <a href=\"#order-modal\"
                                        onclick=\"yaCounter".$data['counter'].".reachGoal('show_all'); return true;\"
@@ -254,7 +254,7 @@ class main{
                                         Заявка на просмотр
                                     </a>
                                 </div>
-                                </noindex>
+                                <!--/noindex-->
 
                             </div>
                             <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">

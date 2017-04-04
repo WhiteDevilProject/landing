@@ -4,6 +4,7 @@
     <list default="true" id="5b855529-6484-42c0-9464-2a54d393f41f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/class.inc.php" afterPath="$PROJECT_DIR$/scripts/class.inc.php" />
     </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,16 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="class.inc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/class.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+            <state relative-caret-position="176">
+              <caret line="256" column="47" selection-start-line="256" selection-start-column="47" selection-end-line="256" selection-end-column="47" />
               <folding>
                 <element signature="n#get_txt_id#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="n#get_array_first_data#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="e#488#582#0#PHP" expanded="false" />
-                <element signature="n#give_alt_title#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="n#give_img_gallery#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="e#1457#1770#0#PHP" expanded="false" />
                 <element signature="n#give_layout_array#0;n#main#0;n#!!top" expanded="false" />
@@ -42,62 +42,60 @@
                 <element signature="e#3334#3625#0#PHP" expanded="false" />
                 <element signature="n#give_project_html#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="e#3773#5793#0#PHP" expanded="false" />
-                <element signature="n#give_lauout_html#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="e#6806#7063#0#PHP" expanded="false" />
-                <element signature="e#7099#10237#0#PHP" expanded="false" />
+                <element signature="e#7099#10247#0#PHP" expanded="false" />
                 <element signature="n#giva_url_data#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="e#12857#13050#0#PHP" expanded="false" />
+                <element signature="e#12877#13070#0#PHP" expanded="false" />
                 <element signature="n#give_me_url_html#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="e#13172#13981#0#PHP" expanded="false" />
-                <element signature="e#13294#13503#0#PHP" expanded="false" />
-                <element signature="e#13513#13981#0#PHP" expanded="false" />
-                <element signature="e#13744#13971#0#PHP" expanded="false" />
+                <element signature="e#13192#14001#0#PHP" expanded="false" />
+                <element signature="e#13314#13523#0#PHP" expanded="false" />
+                <element signature="e#13533#14001#0#PHP" expanded="false" />
+                <element signature="e#13764#13991#0#PHP" expanded="false" />
                 <element signature="n#give_style_css#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="e#14277#14376#0#PHP" expanded="false" />
+                <element signature="e#14297#14396#0#PHP" expanded="false" />
                 <element signature="n#generate_css_style#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="e#14666#15077#0#PHP" expanded="false" />
-                <element signature="e#15095#15268#0#PHP" expanded="false" />
-                <marker date="1491300582020" expanded="false" signature="390:467" ph="SELECT * FRO... first_config" />
-                <marker date="1491300582020" expanded="false" signature="704:766" ph="SELECT `firs... first_config" />
-                <marker date="1491300582020" expanded="false" signature="1557:1739" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
-                <marker date="1491300582020" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
-                <marker date="1491300582020" expanded="false" signature="4042:5761" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4162:4252" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4319:5726" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4388:5687" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4460:4580" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4652:4775" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4856:5644" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="4925:5597" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="5848:6575" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="5894:6552" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="5940:6026" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="6080:6525" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="6142:6494" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="6358:6459" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10288:12563" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10330:12544" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10372:10456" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10506:12521" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10550:12494" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10632:11916" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10702:10793" ph="..." />
-                <marker date="1491300582020" expanded="true" signature="10852:11046" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="10908:11007" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="11088:11880" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="11149:11837" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="11211:11798" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="11998:12463" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="12064:12428" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="12288:12389" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="12715:12775" ph="SELECT * FRO... translinking_${$id}" />
-                <marker date="1491300582020" expanded="false" signature="13221:13265" ph="SELECT * FRO... translinking_${$id}" />
-                <marker date="1491300582020" expanded="false" signature="13363:13486" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="13552:13693" ph="SELECT * FRO... translinking_${$id}" />
-                <marker date="1491300582020" expanded="false" signature="13603:13666" ph="SELECT `id` translinking_${$id}" />
-                <marker date="1491300582020" expanded="false" signature="13831:13954" ph="..." />
-                <marker date="1491300582020" expanded="false" signature="14120:14194" ph="SELECT `colo... first_config" />
+                <element signature="e#14686#15097#0#PHP" expanded="false" />
+                <element signature="e#15115#15288#0#PHP" expanded="false" />
+                <marker date="1491303961850" expanded="false" signature="390:467" ph="SELECT * FRO... first_config" />
+                <marker date="1491303961850" expanded="false" signature="704:766" ph="SELECT `firs... first_config" />
+                <marker date="1491303961850" expanded="false" signature="1557:1739" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
+                <marker date="1491303961850" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
+                <marker date="1491303961850" expanded="false" signature="4042:5761" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4162:4252" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4319:5726" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4388:5687" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4460:4580" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4652:4775" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4856:5644" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="4925:5597" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="5848:6575" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="5894:6552" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="5940:6026" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="6080:6525" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="6142:6494" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="6358:6459" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10298:12583" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10340:12564" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10382:10466" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10516:12541" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10560:12514" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10642:11936" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10712:10803" ph="..." />
+                <marker date="1491303961850" expanded="true" signature="10862:11056" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="10918:11017" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="11164:11852" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="11226:11813" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="12018:12483" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="12084:12448" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="12308:12409" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="12735:12795" ph="SELECT * FRO... translinking_${$id}" />
+                <marker date="1491303961850" expanded="false" signature="13241:13285" ph="SELECT * FRO... translinking_${$id}" />
+                <marker date="1491303961850" expanded="false" signature="13383:13506" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="13572:13713" ph="SELECT * FRO... translinking_${$id}" />
+                <marker date="1491303961850" expanded="false" signature="13623:13686" ph="SELECT `id` translinking_${$id}" />
+                <marker date="1491303961850" expanded="false" signature="13851:13974" ph="..." />
+                <marker date="1491303961850" expanded="false" signature="14140:14214" ph="SELECT `colo... first_config" />
               </folding>
             </state>
           </provider>
@@ -113,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
+            <state relative-caret-position="217">
+              <caret line="724" column="43" selection-start-line="724" selection-start-column="43" selection-end-line="724" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -133,8 +131,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/class.inc.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/scripts/class.inc.php" />
       </list>
     </option>
   </component>
@@ -293,12 +291,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490622420410</updated>
       <workItem from="1490622423360" duration="256000" />
-      <workItem from="1491299518819" duration="2716000" />
+      <workItem from="1491299518819" duration="3638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2972000" />
+    <option name="totallyTimeSpent" value="3894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,12 +313,12 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09381663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4977806" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26413044" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26413044" sideWeight="0.4968017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26413044" sideWeight="0.4968017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -356,7 +354,6 @@
             <element signature="n#get_txt_id#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#get_array_first_data#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#488#582#0#PHP" expanded="false" />
-            <element signature="n#give_alt_title#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#give_img_gallery#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#1457#1770#0#PHP" expanded="false" />
             <element signature="n#give_layout_array#0;n#main#0;n#!!top" expanded="false" />
@@ -364,62 +361,60 @@
             <element signature="e#3334#3625#0#PHP" expanded="false" />
             <element signature="n#give_project_html#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#3773#5793#0#PHP" expanded="false" />
-            <element signature="n#give_lauout_html#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#6806#7063#0#PHP" expanded="false" />
-            <element signature="e#7099#10237#0#PHP" expanded="false" />
+            <element signature="e#7099#10247#0#PHP" expanded="false" />
             <element signature="n#giva_url_data#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#12857#13050#0#PHP" expanded="false" />
+            <element signature="e#12877#13070#0#PHP" expanded="false" />
             <element signature="n#give_me_url_html#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#13172#13981#0#PHP" expanded="false" />
-            <element signature="e#13294#13503#0#PHP" expanded="false" />
-            <element signature="e#13513#13981#0#PHP" expanded="false" />
-            <element signature="e#13744#13971#0#PHP" expanded="false" />
+            <element signature="e#13192#14001#0#PHP" expanded="false" />
+            <element signature="e#13314#13523#0#PHP" expanded="false" />
+            <element signature="e#13533#14001#0#PHP" expanded="false" />
+            <element signature="e#13764#13991#0#PHP" expanded="false" />
             <element signature="n#give_style_css#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#14277#14376#0#PHP" expanded="false" />
+            <element signature="e#14297#14396#0#PHP" expanded="false" />
             <element signature="n#generate_css_style#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#14666#15077#0#PHP" expanded="false" />
-            <element signature="e#15095#15268#0#PHP" expanded="false" />
-            <marker date="1491300582020" expanded="false" signature="390:467" ph="SELECT * FRO... first_config" />
-            <marker date="1491300582020" expanded="false" signature="704:766" ph="SELECT `firs... first_config" />
-            <marker date="1491300582020" expanded="false" signature="1557:1739" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="4042:5761" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4162:4252" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4319:5726" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4388:5687" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4460:4580" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4652:4775" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4856:5644" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4925:5597" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="5848:6575" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="5894:6552" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="5940:6026" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="6080:6525" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="6142:6494" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="6358:6459" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10288:12563" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10330:12544" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10372:10456" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10506:12521" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10550:12494" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10632:11916" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10702:10793" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10852:11046" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="10908:11007" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11088:11880" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11149:11837" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11211:11798" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11998:12463" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="12064:12428" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="12288:12389" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="12715:12775" ph="SELECT * FRO... translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13221:13265" ph="SELECT * FRO... translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13363:13486" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="13552:13693" ph="SELECT * FRO... translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13603:13666" ph="SELECT `id` translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13831:13954" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="14120:14194" ph="SELECT `colo... first_config" />
+            <element signature="e#14686#15097#0#PHP" expanded="false" />
+            <element signature="e#15115#15288#0#PHP" expanded="false" />
+            <marker date="1491303961850" expanded="false" signature="390:467" ph="SELECT * FRO... first_config" />
+            <marker date="1491303961850" expanded="false" signature="704:766" ph="SELECT `firs... first_config" />
+            <marker date="1491303961850" expanded="false" signature="1557:1739" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="4042:5761" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4162:4252" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4319:5726" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4388:5687" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4460:4580" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4652:4775" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4856:5644" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4925:5597" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="5848:6575" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="5894:6552" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="5940:6026" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="6080:6525" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="6142:6494" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="6358:6459" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10298:12583" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10340:12564" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10382:10466" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10516:12541" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10560:12514" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10642:11936" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10712:10803" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10862:11056" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="10918:11017" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="11164:11852" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="11226:11813" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12018:12483" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12084:12448" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12308:12409" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12735:12795" ph="SELECT * FRO... translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13241:13285" ph="SELECT * FRO... translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13383:13506" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="13572:13713" ph="SELECT * FRO... translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13623:13686" ph="SELECT `id` translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13851:13974" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="14140:14214" ph="SELECT `colo... first_config" />
           </folding>
         </state>
       </provider>
@@ -456,15 +451,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="724" column="43" selection-start-line="724" selection-start-column="43" selection-end-line="724" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/class.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="176">
+          <caret line="256" column="47" selection-start-line="256" selection-start-column="47" selection-end-line="256" selection-end-column="47" />
           <folding>
             <element signature="n#get_txt_id#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#get_array_first_data#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#488#582#0#PHP" expanded="false" />
-            <element signature="n#give_alt_title#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#give_img_gallery#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#1457#1770#0#PHP" expanded="false" />
             <element signature="n#give_layout_array#0;n#main#0;n#!!top" expanded="false" />
@@ -472,72 +476,60 @@
             <element signature="e#3334#3625#0#PHP" expanded="false" />
             <element signature="n#give_project_html#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#3773#5793#0#PHP" expanded="false" />
-            <element signature="n#give_lauout_html#0;n#main#0;n#!!top" expanded="false" />
             <element signature="e#6806#7063#0#PHP" expanded="false" />
-            <element signature="e#7099#10237#0#PHP" expanded="false" />
+            <element signature="e#7099#10247#0#PHP" expanded="false" />
             <element signature="n#giva_url_data#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#12857#13050#0#PHP" expanded="false" />
+            <element signature="e#12877#13070#0#PHP" expanded="false" />
             <element signature="n#give_me_url_html#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#13172#13981#0#PHP" expanded="false" />
-            <element signature="e#13294#13503#0#PHP" expanded="false" />
-            <element signature="e#13513#13981#0#PHP" expanded="false" />
-            <element signature="e#13744#13971#0#PHP" expanded="false" />
+            <element signature="e#13192#14001#0#PHP" expanded="false" />
+            <element signature="e#13314#13523#0#PHP" expanded="false" />
+            <element signature="e#13533#14001#0#PHP" expanded="false" />
+            <element signature="e#13764#13991#0#PHP" expanded="false" />
             <element signature="n#give_style_css#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#14277#14376#0#PHP" expanded="false" />
+            <element signature="e#14297#14396#0#PHP" expanded="false" />
             <element signature="n#generate_css_style#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="e#14666#15077#0#PHP" expanded="false" />
-            <element signature="e#15095#15268#0#PHP" expanded="false" />
-            <marker date="1491300582020" expanded="false" signature="390:467" ph="SELECT * FRO... first_config" />
-            <marker date="1491300582020" expanded="false" signature="704:766" ph="SELECT `firs... first_config" />
-            <marker date="1491300582020" expanded="false" signature="1557:1739" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="4042:5761" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4162:4252" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4319:5726" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4388:5687" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4460:4580" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4652:4775" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4856:5644" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="4925:5597" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="5848:6575" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="5894:6552" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="5940:6026" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="6080:6525" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="6142:6494" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="6358:6459" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10288:12563" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10330:12544" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10372:10456" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10506:12521" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10550:12494" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10632:11916" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10702:10793" ph="..." />
-            <marker date="1491300582020" expanded="true" signature="10852:11046" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="10908:11007" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11088:11880" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11149:11837" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11211:11798" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="11998:12463" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="12064:12428" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="12288:12389" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="12715:12775" ph="SELECT * FRO... translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13221:13265" ph="SELECT * FRO... translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13363:13486" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="13552:13693" ph="SELECT * FRO... translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13603:13666" ph="SELECT `id` translinking_${$id}" />
-            <marker date="1491300582020" expanded="false" signature="13831:13954" ph="..." />
-            <marker date="1491300582020" expanded="false" signature="14120:14194" ph="SELECT `colo... first_config" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14686#15097#0#PHP" expanded="false" />
+            <element signature="e#15115#15288#0#PHP" expanded="false" />
+            <marker date="1491303961850" expanded="false" signature="390:467" ph="SELECT * FRO... first_config" />
+            <marker date="1491303961850" expanded="false" signature="704:766" ph="SELECT `firs... first_config" />
+            <marker date="1491303961850" expanded="false" signature="1557:1739" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="1935:1973" ph="SELECT * FRO... infrastructure_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="3147:3198" ph="SELECT * FRO... layout_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="4042:5761" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4162:4252" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4319:5726" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4388:5687" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4460:4580" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4652:4775" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4856:5644" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="4925:5597" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="5848:6575" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="5894:6552" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="5940:6026" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="6080:6525" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="6142:6494" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="6358:6459" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10298:12583" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10340:12564" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10382:10466" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10516:12541" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10560:12514" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10642:11936" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10712:10803" ph="..." />
+            <marker date="1491303961850" expanded="true" signature="10862:11056" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="10918:11017" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="11164:11852" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="11226:11813" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12018:12483" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12084:12448" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12308:12409" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="12735:12795" ph="SELECT * FRO... translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13241:13285" ph="SELECT * FRO... translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13383:13506" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="13572:13713" ph="SELECT * FRO... translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13623:13686" ph="SELECT `id` translinking_${$id}" />
+            <marker date="1491303961850" expanded="false" signature="13851:13974" ph="..." />
+            <marker date="1491303961850" expanded="false" signature="14140:14214" ph="SELECT `colo... first_config" />
           </folding>
         </state>
       </provider>
