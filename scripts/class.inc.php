@@ -65,9 +65,9 @@ class main{
                         <div class=\"container\">
                             <div class=\"infra-item-content active\">
                                 <div class=\"title\">
-                                    <h2>
+                                    <span>
                                         Инфраструктура
-                                    </h2>
+                                    </span>
                                 </div>
                                 <div class=\"infra-item-title\">
                                     ".$row['h1']."

@@ -183,9 +183,9 @@
                                 ?>
                             </h1>
                         </div>
-                        <div class="promo-subtitle">
+                        <h2 class="promo-subtitle">
                             <?php echo $text?>
-                        </div>
+                        </h2>
                         <noindex>
                         <div class="actions-wrap text-center">
                             <a href="#order-modal"
@@ -443,10 +443,10 @@
                         <div class=\"video full-section section\" style=\"background-image: url(".$id->dir.$data['pos_id']."/first/".$data['video_back'].")\">
                             <div class=\"container\">
                                 <div class=\"video-content\">
-                                    <div class=\"custom-title\">
+                                    <h2 class=\"custom-title\">
                                         Видеоролик про<br>
                                         ".$h1."
-                                    </div>
+                                    </h2>
                                     <div class=\"actions-wrap text-center\">
                                             <a href=\"#video-modal\" data-video=\"https://www.youtube.com/embed/".$data['link_video']."?rel=0&autoplay=1\" class=\"custom-btn decor-btn video-link custom-modal-open\" onclick=\"yaCounter".$data['counter'].".reachGoal('watch_video'); return true;\">
                                             Смотреть
