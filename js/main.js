@@ -336,17 +336,17 @@ var recaptcha3;
 var myCallBack = function() {
     //Render the recaptcha1 on the element with ID "recaptcha_1"
     recaptcha1 = grecaptcha.render('recaptcha_1', {
-        'sitekey' : '6LdkFxkUAAAAANpzjSR7I-leMTcgGI6iYKdrGbdN'
+        'sitekey' : '6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS'
     });
 
     //Render the recaptcha2 on the element with ID "recaptcha_2"
     recaptcha2 = grecaptcha.render('recaptcha_2', {
-        'sitekey' : '6LdkFxkUAAAAANpzjSR7I-leMTcgGI6iYKdrGbdN'
+        'sitekey' : '6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS'
     });
 
     //Render the recaptcha2 on the element with ID "recaptcha_3"
     recaptcha3 = grecaptcha.render('recaptcha_3', {
-        'sitekey' : '6LdkFxkUAAAAANpzjSR7I-leMTcgGI6iYKdrGbdN'
+        'sitekey' : '6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS'
     });
 };
 

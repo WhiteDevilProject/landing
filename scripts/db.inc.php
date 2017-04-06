@@ -2,16 +2,16 @@
     header("Content-Type: text/html; charset=utf-8");
 class db {//Подключение к базе данных
 
-       public $host = "localhost";       // ?????????
-     public $user = "root";       //   ??????
-     public $pass= "";       //    ???
-     public $db = "new_sait";         //   ??????????? - ??????? ?? ?????????
+    /*  public $host = "localhost";       // ?????????
+    public $user = "root";       //   ??????
+    public $pass= "";       //    ???
+    public $db = "new_sait";         //   ??????????? - ??????? ?? ?????????*/
 
-    /*public $host = "localhost";       // Заполняем
-     public $user = "a0130553_site";       //   данные
-     public $pass = "5WdvSU9I";       //    для
-     public $db = "a0130553_new_site";         //   подключения - Указаны по умолчанию
-*/
+   public $host = "localhost";       // Заполняем
+    public $user = "a0130553_site";       //   данные
+    public $pass = "5WdvSU9I";       //    для
+    public $db = "a0130553_new_site";         //   подключения - Указаны по умолчанию
+
       /* public function setParam($host=false, $user=false, $pass=false, $db=false) {//Устанавливаем параметры подключения
 
         if($host == false && $user == false && $pass == false && $db == false){

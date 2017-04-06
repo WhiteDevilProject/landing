@@ -7,7 +7,7 @@
 
         /*if (!$captcha)
             echo "Подтвердите, что вы не робот";*/
-        $secret = "6LdkFxkUAAAAAIInxzmw1cbjIcP4w1jckNVRWx61";
+        $secret = "6LcD3BsUAAAAAPFMWqH2fZL2Lfqjjj03_zZqN_uW";
 
         /*var_dump(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha."&remoteip=".$_SERVER["REMOTE_ADDR"]));*/
 

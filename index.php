@@ -57,6 +57,7 @@
         $desc = $urlov['desc'];
         $keys = $urlov['keys'];
         $text = $urlov['text'];
+        $ind_text = $urlov['index_text'];
         $f_h1 = "<span>".$urlov['h1']."</span>";
     }
     
@@ -308,12 +309,21 @@
                     <div class="about-content">
                         <div class="title">
                             <h2>
-                                <?php echo $h2?><br>
-                                <?php echo $data['first_h1']?>
+                                <?php
+                                    if(empty($ind_text))
+                                        echo $h2."<br>".$data['first_h1'];
+                                    else
+                                        echo $f_h1;
+                                ?>
                             </h2>
                         </div>
                         <div class="custom-text">
-                            <?php echo $data['sec_text']?>
+                            <?php
+                                if(empty($ind_text))
+                                    echo $data['sec_text'];
+                                else
+                                    echo $ind_text;
+                            ?>
                         </div>
                     </div>
                     <div class="about-img-wrap">
@@ -680,7 +690,7 @@
                                         <div id="recaptcha_1"></div>
                                     </div>
                                     <div class="form-error"></div>
-                                    <!--<div class="g-recaptcha" data-sitekey="6LdkFxkUAAAAANpzjSR7I-leMTcgGI6iYKdrGbdN"></div>-->
+                                    <!--<div class="g-recaptcha" data-sitekey="6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS"></div>-->
                                 </div>
                                 <div class="form-field">
                                     <div class="checkbox-wrap">

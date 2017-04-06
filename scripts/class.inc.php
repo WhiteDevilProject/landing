@@ -286,7 +286,8 @@ class main{
             "desc" => $row['desc'],
             "keys" => $row['keys'],
             "h1" => $row['h1'],
-            "text" => $row['text']
+            "text" => $row['text'],
+            "index_text" => $row['index_text']
         );
         return $data;
     }
