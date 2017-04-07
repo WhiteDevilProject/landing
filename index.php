@@ -115,7 +115,27 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjx3LWQ28f7HWH-_XxjLiKDFYRo9Mf83k&libraries=places,visualization" type="text/javascript"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
+        <script type="text/javascript">
+            var recaptcha1;
+            var recaptcha2;
+            var recaptcha3;
+            var myCallBack = function() {
+                //Render the recaptcha1 on the element with ID "recaptcha_1"
+                recaptcha1 = grecaptcha.render('recaptcha_1', {
+                    'sitekey' : '6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS'
+                });
 
+                //Render the recaptcha2 on the element with ID "recaptcha_2"
+                recaptcha2 = grecaptcha.render('recaptcha_2', {
+                    'sitekey' : '6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS'
+                });
+
+                //Render the recaptcha2 on the element with ID "recaptcha_3"
+                recaptcha3 = grecaptcha.render('recaptcha_3', {
+                    'sitekey' : '6LcD3BsUAAAAAJW6tNdroBMcEZ441J3k_46tPvZS'
+                });
+            };
+        </script>
         <title><?php echo $title?></title>
         <script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
     </head>

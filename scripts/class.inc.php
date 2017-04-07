@@ -107,6 +107,7 @@ class main{
 
     public function give_project_html(){
         $layout = $this->give_layout_array();
+        $first = $this->get_array_first_data();
 
         foreach($layout['db'] as $k){
             $dir = $this->dir.$this->get_txt_id()."/layout/".$k['photo'];
@@ -150,7 +151,7 @@ class main{
                 <div class=\"plans\">
                     <div class=\"container\">
                         <div class=\"title\">
-                            <h2>Проекты коттеджей</h2>
+                            <h2>Проекты коттеджей в ".$first['first_h1']."</h2>
                         </div>
                         <div class=\"plans-content\">
                             <div class=\"plans-slider-wrap\">
