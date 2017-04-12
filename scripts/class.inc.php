@@ -109,31 +109,35 @@ class main{
         $layout = $this->give_layout_array();
         $first = $this->get_array_first_data();
 
-        foreach($layout['db'] as $k){
-            $dir = $this->dir.$this->get_txt_id()."/layout/".$k['photo'];
-            $price = number_format($k['price'],0,'',' ');
+        if(empty($layout)){
+            return 0;
+        }else {
 
-            $plans_slider .= "
+            foreach ($layout['db'] as $k) {
+                $dir = $this->dir . $this->get_txt_id() . "/layout/" . $k['photo'];
+                $price = number_format($k['price'], 0, '', ' ');
+
+                $plans_slider .= "
                 
                             <div class=\"plans-main-item\">
-                                <img src=\"".$dir."\">
+                                <img src=\"" . $dir . "\">
                                 <div class=\"plans-main-title\">
-                                    ".$k['name']."
+                                    " . $k['name'] . "
                                 </div>
                                 <div class=\"plans-main-content\">
                                     <div class=\"plans-main-block\">
                                         <div class=\"plans-main-info\">
-                                            площадь ".$k['area']." кв.м.
+                                            площадь " . $k['area'] . " кв.м.
                                         </div>
                                         <div class=\"plans-main-info\">
-                                            стоимость от ~".$price." рублей
+                                            стоимость от ~" . $price . " рублей
                                         </div>
                                         <div class=\"actions-wrap text-center\">
                                             <a href=\"#plan-modal\"
-                                               data-title=\"".$k['name']."\"
-                                               data-area=\"".$k['area']." кв.м.\"
-                                               data-per=\"".number_format(ceil($k['price']/$k['area']),0,'',' ')." P\"
-                                               data-price=\"".$price."\"
+                                               data-title=\"" . $k['name'] . "\"
+                                               data-area=\"" . $k['area'] . " кв.м.\"
+                                               data-per=\"" . number_format(ceil($k['price'] / $k['area']), 0, '', ' ') . " P\"
+                                               data-price=\"" . $price . "\"
                                                data-img=\"images/content/plans/pl-1.jpg\"
                                                class=\"custom-modal-open custom-btn custom-btn-small plans-link\">
                                                 Прислать планировку
@@ -145,20 +149,20 @@ class main{
                 ";
 
 
-        }
+            }
 
-        $str = "
+            $str = "
                 <div class=\"plans\">
                     <div class=\"container\">
                         <div class=\"title\">
-                            <h2>Проекты коттеджей в ".$first['first_h1']."</h2>
+                            <h2>Проекты коттеджей в " . $first['first_h1'] . "</h2>
                         </div>
                         <div class=\"plans-content\">
                             <div class=\"plans-slider-wrap\">
                                 <div class=\"slide-nav slide-left\"></div>
                                 <div class=\"slide-nav slide-right\"></div>
                                     <div class=\"plans-slider\">
-                                        ".$plans_slider."
+                                        " . $plans_slider . "
                                     </div>
                             </div>
                         </div>
@@ -166,54 +170,59 @@ class main{
                 </div>
         ";
 
-        return $str;
+            return $str;
+        }
     }
 
     public function give_lauout_html(){
         $h1 = $this->give_alt_title();
         $layout = $this->give_layout_array();
         $data = $this->get_array_first_data();
-        
-        foreach(array_unique($layout['room']) as $key){
-            $room_filter .= "<a href=\"javascript:void(0)\" data-switch=\"".$key."\" class=\"room-switch\">
-                                        ".$key."
+
+        if(empty($layout)){
+            return 0;
+        }else {
+
+
+            foreach (array_unique($layout['room']) as $key) {
+                $room_filter .= "<a href=\"javascript:void(0)\" data-switch=\"" . $key . "\" class=\"room-switch\">
+                                        " . $key . "
                                     </a>";
-        }
-        
-        
-        
-        foreach($layout['db'] as $k){
-            $dir = $this->dir.$this->get_txt_id()."/layout/".$k['photo'];
-            $price = number_format($k['price'],0,'',' ');
-            $plan_prevs .= "<div data-id=\"".$k['id']."\" data-rooms=\"".$k['room']."\" class=\"active col-lg-4 col-md-4 col-sm-2 col-xs-2 plans-item-block\">
+            }
+
+
+            foreach ($layout['db'] as $k) {
+                $dir = $this->dir . $this->get_txt_id() . "/layout/" . $k['photo'];
+                $price = number_format($k['price'], 0, '', ' ');
+                $plan_prevs .= "<div data-id=\"" . $k['id'] . "\" data-rooms=\"" . $k['room'] . "\" class=\"active col-lg-4 col-md-4 col-sm-2 col-xs-2 plans-item-block\">
                                 <div class=\"plans-item\">
-                                    <img src=\"".$dir."\" class=\"img-responsive\" alt=\"Превью планировки в ЖК Парк Рублево\">
+                                    <img src=\"" . $dir . "\" class=\"img-responsive\" alt=\"Превью планировки в ЖК Парк Рублево\">
                                 </div>
                             </div>";
-            
-            $plans_slider .= "
-                <div data-id=\"".$k['id']."\" class=\"plans-main-item\" data-rooms=\"".$k['room']."\">
-                                            <img src=\"".$dir."\" alt=\"Планировки в жилом комплексе ".$h1['first_h1'].".\" />
+
+                $plans_slider .= "
+                <div data-id=\"" . $k['id'] . "\" class=\"plans-main-item\" data-rooms=\"" . $k['room'] . "\">
+                                            <img src=\"" . $dir . "\" alt=\"Планировки в жилом комплексе " . $h1['first_h1'] . ".\" />
                                             <div class=\"plans-main-content\">
                                                 <div class=\"plans-main-block\">
                                                     <div class=\"plans-main-info\">
-                                                        ".$k['room']."-комнатная квартира
+                                                        " . $k['room'] . "-комнатная квартира
                                                     </div>
                                                     <div class=\"plans-main-info\">
-                                                        площадь ".$k['area']." кв.м.
+                                                        площадь " . $k['area'] . " кв.м.
                                                     </div>
                                                     <div class=\"plans-main-info\">
-                                                        стоимость от ".$price." рублей
+                                                        стоимость от " . $price . " рублей
                                                     </div>
                                                     <!--noindex-->
                                                     <div class=\"actions-wrap text-center\">
                                                         <a href=\"#plan-modal\"
-                                                           onclick=\"yaCounter".$data['counter'].".reachGoal('send_layout'); return true;\"
-                                                           data-title=\"".$k['room']."-комнатная квартира\"
-                                                           data-area=\"".$k['area']." кв.м.\"
-                                                           data-per=\"".number_format(ceil($k['price']/$k['area']),0,'',' ')." P\"
-                                                           data-price=\"".$price." P\"
-                                                           data-img=\"".$dir."\"
+                                                           onclick=\"yaCounter" . $data['counter'] . ".reachGoal('send_layout'); return true;\"
+                                                           data-title=\"" . $k['room'] . "-комнатная квартира\"
+                                                           data-area=\"" . $k['area'] . " кв.м.\"
+                                                           data-per=\"" . number_format(ceil($k['price'] / $k['area']), 0, '', ' ') . " P\"
+                                                           data-price=\"" . $price . " P\"
+                                                           data-img=\"" . $dir . "\"
                                                            class=\"custom-modal-open custom-btn custom-btn-small plans-link\">
                                                             Прислать планировку
                                                         </a>
@@ -223,58 +232,58 @@ class main{
                                             </div>
                                         </div>
                 ";
-            
-            
-        }
 
-        $str = "
-            <div class=\"plans\">
-                <div class=\"container\">
-                    <div class=\"title\">
-                        <h2>".$data['header_lay']."</h2>
-                    </div>
-                    <div class=\"plans-content\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-4 col-md-4 col-sm-12 col-xs-12\">
-                                <div class=\"rooms-filter clearfix\">
-                                   ".$room_filter."
-                                </div>
-                                <div class=\"plan-prevs\">
-                                    <div class=\"row\">
-                                        ".$plan_prevs."
+
+            }
+
+            $str = "
+                <div class=\"plans\">
+                    <div class=\"container\">
+                        <div class=\"title\">
+                            <h2>" . $data['header_lay'] . "</h2>
+                        </div>
+                        <div class=\"plans-content\">
+                            <div class=\"row\">
+                                <div class=\"col-lg-4 col-md-4 col-sm-12 col-xs-12\">
+                                    <div class=\"rooms-filter clearfix\">
+                                       " . $room_filter . "
                                     </div>
+                                    <div class=\"plan-prevs\">
+                                        <div class=\"row\">
+                                            " . $plan_prevs . "
+                                        </div>
+                                    </div>
+                                    <!--noindex-->
+                                    <div class=\"actions-wrap\">
+                                        <a href=\"#order-modal\"
+                                           onclick=\"yaCounter" . $data['counter'] . ".reachGoal('show_all'); return true;\"
+                                           data-title=\"Оставьте заявку на просмотр\"
+                                           data-subtitle=\"Заполните форму и мы свяжемся с Вами в течении 15 минут\"
+                                           data-btn=\"Отправить\"
+                                           class=\"custom-btn custom-modal-open order-link decor-btn trigger-plans\">
+                                            Заявка на просмотр
+                                        </a>
+                                    </div>
+                                    <!--/noindex-->
+    
                                 </div>
-                                <!--noindex-->
-                                <div class=\"actions-wrap\">
-                                    <a href=\"#order-modal\"
-                                       onclick=\"yaCounter".$data['counter'].".reachGoal('show_all'); return true;\"
-                                       data-title=\"Оставьте заявку на просмотр\"
-                                       data-subtitle=\"Заполните форму и мы свяжемся с Вами в течении 15 минут\"
-                                       data-btn=\"Отправить\"
-                                       class=\"custom-btn custom-modal-open order-link decor-btn trigger-plans\">
-                                        Заявка на просмотр
-                                    </a>
-                                </div>
-                                <!--/noindex-->
-
-                            </div>
-                            <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">
-                                <div class=\"plans-slider-wrap\">
-                                    <div class=\"slide-nav slide-left\"></div>
-                                    <div class=\"slide-nav slide-right\"></div>
-                                    <div class=\"plans-slider\">
-                                        ".$plans_slider."
+                                <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">
+                                    <div class=\"plans-slider-wrap\">
+                                        <div class=\"slide-nav slide-left\"></div>
+                                        <div class=\"slide-nav slide-right\"></div>
+                                        <div class=\"plans-slider\">
+                                            " . $plans_slider . "
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            ";
 
-        ";
-
-        return $str;
+            return $str;
+        }
     }
     
     public function giva_url_data($url){
