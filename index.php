@@ -380,7 +380,7 @@
                                         </div>
                                     </div>
                                     <div class="info-item-title">
-                                        ипотека
+                                        ставка кредита
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 info-item">
@@ -390,7 +390,7 @@
                                         </div>
                                     </div>
                                     <div class="info-item-title">
-                                        рассрочка
+                                        срок кредита
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 info-item">
